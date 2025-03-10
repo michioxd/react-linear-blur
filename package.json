@@ -19,6 +19,7 @@
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.13.10",
     "@types/react": "^19.0.10",
     "react": "^19.0.0",
     "rollup": "^4.35.0",
@@ -26,6 +27,16 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "clsx": "^2.1.1"
+    "clsx": "^2.1.1",
+    "rollup-plugin-scss": "^4.0.1",
+    "sass": "^1.85.1"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "@parcel/watcher"
+    ],
+    "onlyBuiltDependencies": [
+      "@parcel/watcher"
+    ]
   }
 }

@@ -1,0 +1,22 @@
+.lb-linear-blur {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &.lb-linear-blur--vertical {
+        flex-direction: column;
+    }
+
+    &.lb-linear-blur--horizontal {
+        flex-direction: row;
+    }
+
+    &.lb-linear-blur--pixel {
+        .lb-linear-blur__layer {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}
